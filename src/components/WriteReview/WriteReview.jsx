@@ -29,7 +29,6 @@ function WriteReview() {
           </span>
         </div>
         <div className="rating-container">
-          <label className="rating-label">Rating:</label>
           {[1, 2, 3, 4, 5].map((star) => (
             <span
               key={star}
@@ -41,8 +40,8 @@ function WriteReview() {
           ))}
         </div>
         <div className="description-container">
-          <label className="description-label">Description:</label>
           <textarea
+          placeholder='Description'
             className="description-textarea"
             rows="5"
             value={description}
@@ -50,7 +49,7 @@ function WriteReview() {
           ></textarea>
         </div>
         <div className="submit-button">
-          <button onClick={handleSubmit}>Submit</button>
+          <button onClick={handleSubmit}>Submit Review</button>
         </div>
       </div>
     </div>

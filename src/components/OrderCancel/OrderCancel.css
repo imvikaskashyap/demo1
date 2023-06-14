@@ -1,0 +1,105 @@
+.order-cancellation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.order-cancellation-content {
+  background-color: #fff;
+  border-radius: 28px;
+  padding: 20px;
+  width: 400px;
+  position: relative; /* Added */
+}
+
+.order-cancellation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-cancellation-close-btn {
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+}
+
+.order-cancellation-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+.reasons-container {
+  margin-top: 20px;
+  position: relative; /* Added */
+}
+
+.reasons-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  border-radius: 28px;
+  appearance: none;
+  background-color: #fff;
+  font-size: 14px;
+  position: relative; /* Added */
+  z-index: 1; /* Added */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0; /* Change 'left' to 'right' */
+  z-index: 2;
+}
+
+
+.description-container {
+  margin-top: 20px;
+}
+
+.description-textarea {
+  width: 100%;
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+  resize: vertical;
+}
+
+.dropdown-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+.submit-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button button {
+  padding: 10px 108px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 28px;
+  cursor: pointer;
+}
