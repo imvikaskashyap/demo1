@@ -1,0 +1,69 @@
+.invoice-popup-container {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 330px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	z-index: 9999;
+}
+
+.invoice-popup-content {
+	padding: 20px;
+}
+
+.invoice-popup-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.invoice-popup-title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.invoice-popup-close-btn {
+	font-size: 24px;
+	color: #999;
+	cursor: pointer;
+}
+
+.invoice-details {
+	margin-top: 20px;
+}
+
+.transaction-column-heading {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 36px;
+}
+
+.transaction-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.transaction-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2px;
+}
+
+.transaction-date {
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.download-link {
+	font-size: 14px;
+	text-decoration: underline;
+	cursor: pointer;
+	color: red;
+	text-align: right;
+	margin-bottom: 10px;
+}

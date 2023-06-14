@@ -1,0 +1,73 @@
+.create-account-container {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 350px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	z-index: 9999;
+}
+
+.create-account-content {
+	padding: 20px;
+}
+
+.create-account-heading {
+	margin-top: 70px;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+}
+
+.create-account-input {
+	width: 100%;
+	padding: 8px 16px;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+}
+
+.form-actions {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.create-account-button {
+	padding: 8px 16px;
+	width: 100%;
+	background-color: red;
+	color: #fff;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.terms-condition-text {
+	font-size: 8px;
+	margin-top: 20px;
+}
+.terms-condition {
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.login-link {
+	font-size: 14px;
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+	margin-top: 10px;
+}
